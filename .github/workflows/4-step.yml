@@ -3,9 +3,6 @@ name: Step 4
 on:
   issue_comment:
     types: [created]
-  push:
-    branches:
-      - 'copilot/**'
 
 permissions:
   contents: write
